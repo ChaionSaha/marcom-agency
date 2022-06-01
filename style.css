@@ -21,7 +21,7 @@ html {
 
 body {
 	position: relative;
-	overflow-x: auto;
+	overflow-x: hidden;
 	min-width: 192rem;
 	max-width: 192rem;
 	margin: 0 auto;
@@ -375,4 +375,14 @@ body {
 
 .shape_3 {
 	transition: box-shadow 200ms;
+}
+
+
+::-webkit-scrollbar{
+	width: 5px;
+	background-color: #12182a;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #fff;
 }
